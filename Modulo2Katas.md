@@ -16,12 +16,13 @@ Crea un entorno virtual mediante ``venv``
     ``
     python -m venv env
     ``
+    
+![](images/Env.png)
 
-![](..\KatasJuliaLaunchX\images\Env.png)
 
     Ahora tienes un directorio (folder) ``env`` creado en tu terminal.
 
-![](..\KatasJuliaLaunchX\images\DirEnv.png)
+![](images/DirEnv.png)
 
 * Ejecuta el comando para activar el entorno virtual: ``source env/bin/activate``
 
@@ -39,7 +40,7 @@ Crea un entorno virtual mediante ``venv``
 
 Ahora ves en tu terminal ``(env)``. Eso significa que has activado tu entorno virtual y se ha aislado del resto de tu máquina.
 
-![](..\KatasJuliaLaunchX\images\Enviroment.png)
+![](images/Enviroment.png)
 
 
 ## Instalar una biblioteca
@@ -54,7 +55,7 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
 
     No deberías obtener respuesta. A continuación, veamos cómo cambia la salida de ``pip freeze`` cuando se agrega una biblioteca (un paquete).
 
-![](..\KatasJuliaLaunchX\images\PipFreeze.png)
+![](images/PipFreeze.png)
 
 * Ejecuta el comando ``pip install`` para instalar una biblioteca:
    ```
@@ -66,7 +67,7 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     Successfully installed python-dateutil-2.8.2 six-1.16.0
     ```
 
-![](..\KatasJuliaLaunchX\images\PipInstall.png)
+![](images/PipInstall.png)
 
 
 * Vuelve a ejecutar ```pip freeze``` para ver cómo ha cambiado tu lista de bibliotecas:
@@ -79,7 +80,7 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     six==1.16.0
     ```
 
-![](..\KatasJuliaLaunchX\images\PipFreeze02.png)
+![](images/PipFreeze02.png)
 
 
 ### Desactivar un entorno virtual
@@ -93,4 +94,4 @@ deactivate
 
 Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
 
-![](..\KatasJuliaLaunchX\images\Deactivate.png)
+![](images/Deactivate.png)
